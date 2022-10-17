@@ -1,0 +1,5 @@
+label, input, button, h1, p {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+}
