@@ -36,10 +36,6 @@ button.addEventListener("click", function calculate() {
     } else {
         finalMessage.innerText = "Please fill out valid amounts."
     }
-    if (resultL[1] >= 50) {
-        htmlBody.style.background = 'grey';
-    } else {
-        htmlBody.style.background = 'white';
-    }
+    
 }
 );
