@@ -8,6 +8,7 @@
 
 html {
     height: 100%;
+    max-width: 100%;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
     background-color: var(--primary-color);
     text-align: center;
     max-width: 100vw;
+    max-height: 100%;
 }
 
 label,
@@ -87,12 +89,18 @@ ul li {
     padding: 1rem 1rem 0;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 599px) {
     body {
         font-size: 2.5vw;
     }
 
     .sm-logo {
         width: 20px
+    }
+    
+    ul li {
+        list-style: none;
+        display: inline;
+        padding: 0;
     }
 }
